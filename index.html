@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>K7 Movies — Book Your Show</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <a href="index.html" class="logo">K7<span> Movies</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="catalog.html">Catalog</a></li>
+        <li><a href="reminder.html">Reminders</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero banner -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Your Story Begins on the Big Screen</h1>
+        <p>Book tickets for the latest blockbusters with K7 Movies — fast, easy, and unforgettable.</p>
+        <a href="catalog.html" class="btn">Book Now</a>
+      </div>
+    </section>
+
+    <!-- Featured carousel -->
+    <section class="section" id="featured">
+      <h2 class="section-title">Featured Movies</h2>
+      <div class="carousel">
+        <div class="carousel-track">
+          <div class="carousel-slide">
+            <img src="https://placehold.co/1200x500/0A2540/FFFFFF?text=Stellar+Dreams" alt="Stellar Dreams">
+            <div class="carousel-caption"><h3>Stellar Dreams</h3><p>Sci-Fi epic now showing</p></div>
+          </div>
+          <div class="carousel-slide">
+            <img src="https://placehold.co/1200x500/1E5AA8/FFFFFF?text=Ocean+Horizon" alt="Ocean Horizon">
+            <div class="carousel-caption"><h3>Ocean Horizon</h3><p>Action adventure of the year</p></div>
+          </div>
+          <div class="carousel-slide">
+            <img src="https://placehold.co/1200x500/4A90E2/FFFFFF?text=Midnight+Whisper" alt="Midnight Whisper">
+            <div class="carousel-caption"><h3>Midnight Whisper</h3><p>The thriller everyone is talking about</p></div>
+          </div>
+        </div>
+        <button class="carousel-btn prev" aria-label="Previous slide">‹</button>
+        <button class="carousel-btn next" aria-label="Next slide">›</button>
+        <div class="carousel-dots"></div>
+      </div>
+    </section>
+
+    <!-- Now Showing -->
+    <section class="section" id="now-showing">
+      <h2 class="section-title">Now Showing</h2>
+      <div class="movie-grid">
+        <article class="movie-card">
+          <img src="https://placehold.co/300x420/0A2540/FFFFFF?text=Ocean+Horizon" alt="Ocean Horizon">
+          <div class="movie-info">
+            <h3>Ocean Horizon</h3>
+            <p class="meta">Action • English</p>
+            <a href="catalog.html" class="btn">Book</a>
+          </div>
+        </article>
+        <article class="movie-card">
+          <img src="https://placehold.co/300x420/1E5AA8/FFFFFF?text=Midnight+Whisper" alt="Midnight Whisper">
+          <div class="movie-info">
+            <h3>Midnight Whisper</h3>
+            <p class="meta">Thriller • English</p>
+            <a href="catalog.html" class="btn">Book</a>
+          </div>
+        </article>
+        <article class="movie-card">
+          <img src="https://placehold.co/300x420/4A90E2/FFFFFF?text=Stellar+Dreams" alt="Stellar Dreams">
+          <div class="movie-info">
+            <h3>Stellar Dreams</h3>
+            <p class="meta">Sci-Fi • English</p>
+            <a href="catalog.html" class="btn">Book</a>
+          </div>
+        </article>
+        <article class="movie-card">
+          <img src="https://placehold.co/300x420/0A2540/FFFFFF?text=Chennai+Express" alt="Chennai Express 2">
+          <div class="movie-info">
+            <h3>Chennai Express 2</h3>
+            <p class="meta">Action • Tamil</p>
+            <a href="catalog.html" class="btn">Book</a>
+          </div>
+        </article>
+        <article class="movie-card">
+          <img src="https://placehold.co/300x420/1E5AA8/FFFFFF?text=Love+in+Paris" alt="Love in Paris">
+          <div class="movie-info">
+            <h3>Love in Paris</h3>
+            <p class="meta">Romance • Hindi</p>
+            <a href="catalog.html" class="btn">Book</a>
+          </div>
+        </article>
+        <article class="movie-card">
+          <img src="https://placehold.co/300x420/4A90E2/FFFFFF?text=The+Last+Laugh" alt="The Last Laugh">
+          <div class="movie-info">
+            <h3>The Last Laugh</h3>
+            <p class="meta">Comedy • English</p>
+            <a href="catalog.html" class="btn">Book</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Coming Soon -->
+    <section class="section" id="coming-soon">
+      <h2 class="section-title">Coming Soon</h2>
+      <div class="movie-grid">
+        <article class="movie-card">
+          <img src="https://placehold.co/300x420/0A2540/FFFFFF?text=Galactic+Wars" alt="Galactic Wars">
+          <div class="movie-info"><h3>Galactic Wars</h3><p class="meta">Sci-Fi • Releases June 14</p></div>
+        </article>
+        <article class="movie-card">
+          <img src="https://placehold.co/300x420/1E5AA8/FFFFFF?text=Silent+Echo" alt="Silent Echo">
+          <div class="movie-info"><h3>Silent Echo</h3><p class="meta">Thriller • Releases June 21</p></div>
+        </article>
+        <article class="movie-card">
+          <img src="https://placehold.co/300x420/4A90E2/FFFFFF?text=Kadhal+Theevu" alt="Kadhal Theevu">
+          <div class="movie-info"><h3>Kadhal Theevu</h3><p class="meta">Romance • Releases July 5</p></div>
+        </article>
+        <article class="movie-card">
+          <img src="https://placehold.co/300x420/0A2540/FFFFFF?text=Hasya+Bazaar" alt="Hasya Bazaar">
+          <div class="movie-info"><h3>Hasya Bazaar</h3><p class="meta">Comedy • Releases July 19</p></div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div>
+        <h4>K7 Movies</h4>
+        <p>Your one-stop destination for booking the latest movies. Premium experience, every show.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="catalog.html">Catalog</a></li>
+          <li><a href="reminder.html">Reminders</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li>support@k7movies.com</li>
+          <li>+91 98765 43210</li>
+          <li>Chennai, India</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 K7 Movies. All rights reserved.</div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
