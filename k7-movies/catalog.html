@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catalog — K7 Movies</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <a href="index.html" class="logo">K7<span> Movies</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="catalog.html">Catalog</a></li>
+        <li><a href="reminder.html">Reminders</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section">
+      <h2 class="section-title">Browse Movies</h2>
+
+      <div class="filter-bar">
+        <select id="langFilter" aria-label="Filter by language">
+          <option value="all">All Languages</option>
+          <option value="English">English</option>
+          <option value="Tamil">Tamil</option>
+          <option value="Hindi">Hindi</option>
+        </select>
+        <select id="genreFilter" aria-label="Filter by genre">
+          <option value="all">All Genres</option>
+          <option value="Action">Action</option>
+          <option value="Thriller">Thriller</option>
+          <option value="Sci-Fi">Sci-Fi</option>
+          <option value="Romance">Romance</option>
+          <option value="Comedy">Comedy</option>
+          <option value="Drama">Drama</option>
+        </select>
+        <input type="search" id="searchInput" placeholder="Search movies by title..." aria-label="Search movies">
+      </div>
+
+      <div class="movie-grid" id="movieGrid"></div>
+    </section>
+  </main>
+
+  <!-- Booking Modal -->
+  <div class="modal-overlay" id="movieModal" role="dialog" aria-modal="true">
+    <div class="modal" id="modalContent"></div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div>
+        <h4>K7 Movies</h4>
+        <p>Your one-stop destination for booking the latest movies. Premium experience, every show.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="catalog.html">Catalog</a></li>
+          <li><a href="reminder.html">Reminders</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li>support@k7movies.com</li>
+          <li>+91 98765 43210</li>
+          <li>Chennai, India</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 K7 Movies. All rights reserved.</div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/catalog.js"></script>
+</body>
+</html>
